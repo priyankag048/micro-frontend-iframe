@@ -1,0 +1,18 @@
+{
+  "name": "micro-frontend-iframe",
+  "private": true,
+  "devDependencies": {
+    "lerna": "3.20.2"
+  },
+  "scripts": {
+    "cleanup": "./bin/cleanup",
+    "preinstall": "lerna link convert",
+    "seed": "lerna run seed",
+    "build": "lerna run build",
+    "start": "lerna run start"
+  },
+  "dependencies": {
+    "@mfs/department": "file:packages/department",
+    "@mfs/employee": "file:packages/employee"
+  }
+}

@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+echo "$(tput setaf 50)starting $(tput setaf 12)clean up"
+echo "$(tput setaf 7)removing $(tput setaf 1)node_modules $(tput setaf 7)from packages"
+echo "$(tput setaf 3)lerna clean -y"
+lerna clean -y
+rm -rf packages/*/package-lock.json
+echo "$(tput setaf 7)removing $(tput setaf 1)node_modules $(tput setaf 7)from root dir"
+echo "$(tput setaf 3)rm -rf node_modules"
+rm -rf node_modules
+echo "$(tput setaf 7)removing $(tput setaf 1)package-lock.json $(tput setaf 7)from root dir"
+echo "$(tput setaf 3)rm -rf package-lock.json"
+rm -rf package-lock.json
+echo "$(tput setaf 12)clean up $(tput setaf 50)success"
