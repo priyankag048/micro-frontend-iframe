@@ -1,6 +1,6 @@
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 # micro-frontend-iframe
-micro-frontend with iframe, first attempt to start with micro-frontend. The application uses iframe to integrate 
+The application uses iframe to integrate 
 department fragment to employee page.
 
 # Prerequisites
