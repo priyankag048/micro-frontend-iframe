@@ -17,9 +17,12 @@ department fragment to employee page.
 
 2. npm install ( install all dependencies and dev-dependencies )
 3. npm run seed ( populate employee and department data in database )
-4. npm run build ( build next project )
+4. npm run build ( build next project)
 5. npm start ( start employee and department server )
 
-Department server will start on http://localhost:4000/
+Department server will start on http://localhost:4002/
 
 Employee server will start on http://localhost:4001/
+
+The Tailor server ( combines Department and Employee into one application ) will run on
+http://localhost:4000/

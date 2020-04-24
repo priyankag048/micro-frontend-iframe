@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@mfs/department": "file:packages/department",
-    "@mfs/employee": "file:packages/employee"
+    "@mfs/employee": "file:packages/employee",
+    "@mfs/tailor": "file:packages/tailor"
   }
 }

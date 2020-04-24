@@ -1,0 +1,20 @@
+{
+  "name": "@mfs/tailor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server/app.js",
+    "build": "npm run build:rm && next build",
+    "build:rm": "rm -rf .next"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "next": "9.3.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  }
+}
