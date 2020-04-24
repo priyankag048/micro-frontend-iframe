@@ -33,7 +33,6 @@ export default () => {
 
   return(
     <div>
-        <iframe src="http://localhost:4000/"/>
         <table>
           <tr>
             <th>Name</th>
@@ -49,14 +48,16 @@ export default () => {
               </tr>
             ))}
         </table>
+        <style jsx global>
+          {`
+              body{
+               margin: 0;
+              }
+            
+          `}
+        </style>
         <style jsx>
           {`
-            iframe{
-              border: none;
-              width: 100%;
-              height: 4rem;
-              margin: auto;
-            }
             table{
               width: 80%;
               text-align: left;
@@ -69,8 +70,20 @@ export default () => {
               text-align: left;
               padding: 8px;
             }
+            tr:first-child {
+              position: relative;
+            }
+            th {
+              background-color: #ffffff;
+              position: sticky;
+              top: 0;
+            }
             tr:nth-child(even) {
-              background-color: #dddddd;
+              background-color: #579188;
+              color: #fff;
+            }
+            tr:nth-child(odd) {
+              background-color: #d1dedd;
             }
             
         `}

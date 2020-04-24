@@ -1,7 +1,7 @@
 const express = require('express');
 const { MongoClient } = require('mongodb');
 const next = require('next');
-const { DB_URL, DB_NAME } = require('./config');
+const { DB_URL, DB_NAME, PORT } = require('./config');
 const app = next({});
 const handler = app.getRequestHandler();
 
@@ -15,7 +15,7 @@ app.prepare()
       res.status(200).json(employees);
     });
     server.get('*', (req,res) => handler(req,res));
-    server.listen(4001, () => {
-      console.log('Server started. Running on http://localhost:4001');
+    server.listen(PORT, () => {
+      console.log(`Server started. Running on http://localhost:${PORT}`);
     });
   });

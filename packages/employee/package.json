@@ -1,17 +1,15 @@
 {
   "name": "@mfs/employee",
   "version": "0.0.0",
-  "description": "> TODO: description",
+  "description": "Displays a table with employees",
   "author": "priyankag048 <priyankaguha.2012@gmail.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/employee.js",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "src"
   },
   "files": [
-    "lib"
+    "src"
   ],
   "publishConfig": {
     "access": "public"
