@@ -28,6 +28,14 @@ export default () => {
               <option key={id} value={id}>{name}</option>
             ))}
         </select>
+        <style jsx global>
+          {`
+              body{
+               margin: 0;
+              }
+            
+          `}
+        </style>
         <style jsx>
           {`
             div {

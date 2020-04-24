@@ -1,17 +1,15 @@
 {
   "name": "@mfs/department",
   "version": "0.0.0",
-  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "description": "Displays a dropdown with Departments",
   "keywords": [],
   "author": "priyankag048 <priyankaguha.2012@gmail.com>",
   "license": "ISC",
-  "main": "lib/department.js",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "src"
   },
   "files": [
-    "lib"
+    "src"
   ],
   "publishConfig": {
     "access": "public"
