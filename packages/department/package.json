@@ -21,7 +21,7 @@
     "build:rm": "rm -rf .next"
   },
   "dependencies": {
-    "axios": "0.19.2",
+    "axios": "1.6.0",
     "express": "4.17.1",
     "mongodb": "3.5.5",
     "next": "9.3.4",
